@@ -1,0 +1,20 @@
+{
+  "shopping": [
+    {
+      "id": "85ae9d48-e4ba-44a4-b0a6-8f38d4bfb80b",
+      "name": "Kit kat"
+    },
+    {
+      "id": "0b82ebed-f52f-4550-b392-945630a9eeda",
+      "name": "Twix"
+    },
+    {
+      "id": "7fd8cdee-6f0d-465f-954d-4b52985eb268",
+      "name": "5star"
+    },
+    {
+      "id": "5ec5ed5c-e7ea-43ff-ae80-a4abdb044260",
+      "name": "oops"
+    }
+  ]
+}

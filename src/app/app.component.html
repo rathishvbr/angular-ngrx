@@ -1,0 +1,14 @@
+<h2> Wish List </h2>
+
+<h2 *ngIf="loading$ | async">Loding</h2>
+
+<div class="flex-container">
+  <span class="flex-item" *ngFor="let shopping of ShoppingItem$ | async">
+    {{shopping.name}} <button (click)="deleteItem(shopping.id)">X</button>
+  </span>
+</div>
+
+<form (ngSubmit)="addItem()">
+  <input type="text" [(ngModel)]="newShoppingItem.name" placeholder="Item" name="itemName" />
+  <button type="submit">Add</button>
+</form>
